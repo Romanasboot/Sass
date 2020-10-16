@@ -1,0 +1,23 @@
+body{
+  background-color: black;
+  align-items: center;
+  .container{
+    display: flex;
+    flex-flow: column;
+    margin: 20px 200px;
+  }
+  .column{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: white;
+  }
+  .row1 .row2 .row3 .row4{
+    display: flex;
+    flex-flow: row;
+  }
+  img{
+    size: 100px;
+  }
+
+}

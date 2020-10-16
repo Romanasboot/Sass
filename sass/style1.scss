@@ -1,0 +1,25 @@
+@import 'var';
+@import "componets";
+@import "mixins";
+
+nav {
+  @extend .navbar;
+  @include round(5px);
+
+  background-color: $navColor;
+  li{
+    display: inline-block;
+    a{
+      color: crimson;
+      @extend  .button;
+      &:hover{
+        color: $hovColor;
+      }
+    }
+  }
+}
+
+h1{
+  background-color: $textColor;
+  @include green(#38680e)
+}

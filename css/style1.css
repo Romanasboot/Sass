@@ -1,0 +1,28 @@
+/* bg colors*/
+.button, nav li a {
+    border-radius: 10px;
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+    color: white; }
+
+.navbar, nav {
+    border-radius: 50px;
+    height: 50px;
+    background-color: darkcyan; }
+
+nav {
+    border-radius: 5px;
+    background-color: #aabbcc; }
+nav li {
+    display: inline-block; }
+nav li a {
+    color: crimson; }
+nav li a:hover {
+    color: #e5b719; }
+
+h1 {
+    background-color: #ee22dd;
+    background-color: #38680e; }
+
+/*# sourceMappingURL=style.css.map */
